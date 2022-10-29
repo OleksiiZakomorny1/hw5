@@ -1,11 +1,72 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 400, 700;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.denish {
-	margin: 0 0 0 0;
+.navmenu {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 25px;
 }
 
-.denisphoto {
+.navitem {
+	color: #828282;
+	text-decoration: none;
+}
+
+.navitem:hover {
+	color: black;
+}
+
+hr {
+	width: 970px;
+	margin-top: 25px;
+}
+
+h1 {
+	margin-top: 12px;
+	margin-bottom: 0;
+}
+
+.den {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.cont {
+	width: 970px;
+}
+
+.den img {
+	width: 100%;
 	margin-top: 50px;
+}
+
+.about {
+	display: flex;
+	justify-content: center;
+	background-color: #F6F6F6;
+}
+
+.about .cont {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+.about_txt {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 460px;
+}
+
+.about_txt {
+	text-align: center;
 }
