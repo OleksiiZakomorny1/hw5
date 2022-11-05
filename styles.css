@@ -1,11 +1,159 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 400, 700;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.denish {
-	margin: 0 0 0 0;
+.navmenu {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 25px;
 }
 
-.denisphoto {
+.navitem {
+	color: #828282;
+	text-decoration: none;
+}
+
+.navitem:hover {
+	color: black;
+}
+
+hr {
+	width: 970px;
+	margin-top: 25px;
+}
+
+h1 {
+	margin-top: 12px;
+	margin-bottom: 0;
+}
+
+.den {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.cont {
+	width: 970px;
+}
+
+.den img {
+	width: 100%;
 	margin-top: 50px;
+}
+
+.about {
+	display: flex;
+	justify-content: center;
+	background-color: #F6F6F6;
+	padding-bottom: 100px;
+}
+
+.about .cont {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+.about_txt {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 460px;
+}
+
+.about_txt {
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.Skills .cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 200px;
+}
+
+.skills_txt {
+	text-align: center;
+}
+
+.skills_content {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.portfolio {
+	display: flex;
+	justify-content: center;
+	background-color: #F6F6F6;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.portfolio .cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.portfolio img {
+	height: 540px;
+	width: 970px;
+}
+
+.portfolio p {
+	text-decoration: underline;
+}
+
+.contacts {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.contacts .cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button {
+	background-color: #070707;
+	color: white;
+	border-radius: 22px;
+	font-size: 18px;
+	padding: 10px;
+	width: 180px;
+	margin: 0 auto;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+.contacts p {
+	text-align: center;
+}
+
+.links {
+	display: flex;
+	gap: 50px;
+	margin-top: 30px;
+}
+
+.contacts p {
+	color: #828282;
+	margin-top: 20px;
 }
