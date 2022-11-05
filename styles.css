@@ -140,6 +140,7 @@ button {
 	width: 180px;
 	margin: 0 auto;
 	margin-top: 60px;
+	cursor: pointer;
 }
 
 .contacts p {
